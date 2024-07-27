@@ -15,7 +15,7 @@ conda activate "$project_name"
 
 # Install libraries using python -m pip
 echo "Installing black and isort..."
-python -m pip install black isort
+python -m pip install black isort ipython pandas matplotlib python-dotenv
 
 echo "Setup complete! Your conda environment '$project_name' is ready."
 echo "To activate this environment, use: conda activate $project_name"
